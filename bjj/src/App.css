@@ -1,0 +1,233 @@
+*{
+  margin: 0em;
+  padding: 0em;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/*-----------------------------------------------------------------------*/
+.topb{
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+.numbers{
+  display:flex;
+}
+#mail{
+  margin: 1em;
+}
+
+.signing{
+  margin-left: 50em;
+}
+.topb button{
+  border: none;
+  
+  color: rgb(255, 255, 255);
+  padding: 1em 1.2em;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1rem;
+  margin-bottom: -0.1em;
+  margin-top: 0;
+  margin-left: 2.5px;
+  cursor: pointer;
+}
+.buy{
+  background-color: blue;
+}
+.join{
+  background-color: red;
+}
+.Menu a
+{
+    text-decoration: none;
+    color: aliceblue;
+    text-align: center;
+    padding: 1em 2.3em;
+    font-size: 0.93em;
+
+}
+.Menu
+{
+    border: none;
+    background-color: #ff0000;
+    display: flex;
+    padding-bottom: 0.2em;
+    
+}
+.logo img{
+  height: 8em;
+  margin:-7em 1em;
+}
+
+.Banner
+{
+    background-image: url("./images/banner01.png");
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -0em 0em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.form 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+#ben
+{
+    color: rgb(255, 255, 255);
+    font-size: 3em;
+    margin:0em;
+}
+.book button{
+     
+  border: 0em;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  margin: 0.2em;
+  cursor: pointer;
+  border-radius: 5px;
+
+}
+.signin
+{
+    color: black;
+    background-color: white;
+    border-radius: 7px;
+    margin:0.3em;
+}
+.freetrial
+{
+    color: white;
+    background-color: #ff0000;
+    border-radius: 7px;
+    margin: 0.5em;
+}
+.blog-container{
+  display:flex;
+  
+  align-items: center;
+  
+}
+
+.blog-section {
+  width: 500px;
+  height: 300px;
+  margin: 0.2em;
+}
+.blog-section img{
+  object-fit: cover;
+  max-width: 500px;
+  height: 300px;
+  width: 500px;
+}
+/*-------------------------------------------------------------------------------------*/
+@media  screen and (max-width:480px)
+{
+    .blog-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0.5em;
+    }
+    .blog-section {
+      font-size: 0.8em;
+      width: 370px;
+      height: 300px;
+      margin: 0.2em;
+    }
+    .blog-section img{
+      object-fit: cover;
+      width: 375px;
+      max-height: 150px;
+      border: #282c34;
+    }
+    .signing
+    {
+    margin-left: 15em ;
+    }
+    .topb
+    {
+    margin: 0em;
+    font-size: 0.5rem;
+    padding: 0em;
+    
+    }
+    .Menu a
+    {
+    padding: 1em 1em;
+    font-size: 0.3em;
+    }
+    .Banner
+    {
+    background-image: url("./images/banner01.png");
+    height: 100vh;
+    background-position: -35em 0em;
+    display: flex;
+    
+    }
+    .logo img{
+      height:6em;
+      margin:-5.2em -10.5em;
+  }
+  .topb button{
+    padding: 1em;
+    margin: 0;
+    font-size: 1em;
+  }
+  .buy{
+    opacity: 0%;
+  }
+  #phone{
+    opacity:0%;
+  }
+}
