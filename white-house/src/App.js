@@ -29,7 +29,7 @@ const renderMainPage = () => {
   return (
     <div>
       <Header />
-      <button onClick={()=>buttonclick()}>tpggle</button>
+      <button onClick={()=>buttonclick()}>toggle</button>
       {renderMainPage()}
     </div>
   );
