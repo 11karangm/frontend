@@ -1,4 +1,4 @@
-#Brazilian Jiu Jitsu Website
+# Brazilian Jiu Jitsu Website
 
 This is a website for a BJJ School made using ReactJs
 
